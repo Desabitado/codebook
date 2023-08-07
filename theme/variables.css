@@ -1,0 +1,14 @@
+:root {
+  /* Site content */
+  --color-primary: #262626;
+  --color-secundary: #f4f4f4;
+  --color-tertiary: #ffffff;
+  /* Site components */
+  --color-facebook: #385185;
+  --color-link: #00376b;
+  --color-button: #4bb4f8;
+  --color-label: #8e8e8e;
+  --color-border: #dbdbdb;
+  --color-placeholder: #fafafa;
+  --color-placeholder-text: #8e8e8e3d;
+}

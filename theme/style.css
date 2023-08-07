@@ -1,0 +1,74 @@
+/* Color palette */
+@import "variables.css";
+/* Site icons */
+@import "icons.css";
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("path/to/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("path/to/SF-Pro-Text-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("path/to/SF-Pro-Text-Semibold.otf");
+  font-weight: 600;
+}
+
+.content-footer {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  height: 58px;
+  margin-bottom: 50px;
+  color: var(--color-label);
+  font-size: 13.9px;
+}
+
+.content-footer__bottom {
+  margin: 15px 0px 0px 0px;
+}
+
+body {
+  font-family: "San Francisco", sans-serif;
+}
+
+span {
+  font-size: smaller;
+}
+
+input {
+  border: 1px solid var(--color-placeholder-text);
+  border-radius: 3px;
+  background-color: var(--color-placeholder);
+  font-size: smaller;
+}
+
+input:focus {
+  border: 1px solid var(--color-label);
+}
+
+button {
+  background-color: var(--color-button);
+  color: var(--color-tertiary);
+  font-size: smaller;
+}
+
+a {
+  color: var(--color-link);
+  font-size: 11.5px;
+}
+
+p {
+  color: var(--color-primary);
+  font-size: smaller;
+}
+
+label {
+  font-size: smaller;
+}
